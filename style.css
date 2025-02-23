@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: white;
+    font-family: "DM Sans", serif;
+    text-align: center;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.images{
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.image-1{
+    background-image: url("img/New\ Model\ Y.avif");
+}
+.image-2{
+    background-image: url("img/New\ Model\ Y.avif");
+}
+.image-3{
+    background-image: url("img/Model\ 3.avif");
+}
+.image-4{
+    background-image: url("img/Cybertruck.avif");
+}
+.image-5{
+    background-image: url("img/Model\ X.avif");
+}
+.image-6{
+    background-image: url("img/Model\ S.avif");
+}
+.image-7{
+    background-image: url("img/Solar\ Panels.avif");
+}
+.image-8{
+    background-image: url("img/Solar\ Roof.avif");
+}
+.image-9{
+    background-image: url("img/Powerwall.avif");
+}
+.image-10{
+    background-image: url("img/Accessories.avif");
+}
+.change{
+    background-image: url("img/Solar\ Panels.avif");
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 30px;
+    margin: 8px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.order{
+    background-color: blue;
+    color: white;
+}
+.learn{
+    background-color: white;
+    color: black;
+}
+.order:hover,
+.learn:hover,
+.shop a:hover,
+.we-tesla a:hover{
+    opacity: 0.8;
+}
+.link{
+    margin-top: 10px;
+}
+.link-down{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.link-down a{
+    border-radius: 7px;
+}
+.cyber a{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+.cyber a:hover{
+    opacity: 0.8;
+    border: 3px solid rgb(67, 64, 64);
+}
+.shop{
+    position: absolute;
+    bottom: 20px;
+}
+.shop a{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 40px;
+}
+h2{
+    font-size: 38px;
+
+}
+h3{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+}
+.block, 
+.solar-schedule{
+    text-decoration: underline;
+    display: block;
+    font-size: 33px;
+    font-weight: 600;
+}
+.models-p,
+.model-x{
+    font-size: 18px;
+    text-decoration: underline;
+}
+.three{
+    font-size: 33px;
+}
+.we-tesla{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.we-tesla a{
+    display: block;
+    width: 100%;
+    color: black;
+    border-radius: 8px;
+}
+.paragraphs{
+    color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.paragraphs p{
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+footer a{
+    background-color: none;
+    color: black;
+    margin: 0;
+}
+.drive{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.drive a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    color: black;
+    box-shadow: 0px 0px 4px 4px rgb(191, 190, 190);
+}
+.wheel{
+    width: 30px;
+}
+@media (min-width: 1440px) {
+    .image{
+        min-height: 90vh;
+    }
+    .link a{
+        border-radius: 8px;
+    }
+}
